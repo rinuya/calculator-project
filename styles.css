@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    font-size: large;
+    font-family: Sans-serif;
+}
+
+#container{
+    display:grid;
+    background-color: white;
+    width: 640px;
+    padding: 20px;
+    grid-gap: 10px;
+    align-content: center;
+}
+
+#display{
+    background-color: lightgray;
+    padding-top:80px;
+
+}
+
+#input > button{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    align-items: center;
+}
+
+#input{
+    
+    
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    display:grid;
+    justify-items: stretch;
+    grid-gap: 15px;
+      
+}
